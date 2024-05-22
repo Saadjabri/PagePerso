@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #fdfdfd;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -56,12 +56,3 @@ section {
     border-radius: 5px;
 }
 
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
