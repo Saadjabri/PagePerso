@@ -3,68 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes Travaux</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            padding: 20px;
-        }
-        .work {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .work h2 {
-            margin-top: 0;
-        }
-        .work p {
-            margin-bottom: 10px;
-        }
-        .work a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        .work a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Mon Site Personnel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-    <h1>Mes Travaux</h1>
-    <p>Voici une sélection de mes projets et réalisations.</p>
-</header>
-
-<div class="container">
-    <div class="work">
-        <h2>Projet 1: Site Web Personnel</h2>
-        <p>Description: Création d'un site web personnel pour présenter mon portfolio.</p>
-        <p><a href="https://www.example.com/projet1" target="_blank">Voir le projet</a></p>
-    </div>
-    <div class="work">
-        <h2>Projet 2: Application Mobile</h2>
-        <p>Description: Développement d'une application mobile pour la gestion des tâches quotidiennes.</p>
-        <p><a href="https://www.example.com/projet2" target="_blank">Voir le projet</a></p>
-    </div>
-    <div class="work">
-        <h2>Projet 3: Analyse de Données</h2>
-        <p>Description: Analyse de données pour un projet de recherche universitaire.</p>
-        <p><a href="https://www.example.com/projet3" target="_blank">Voir le projet</a></p>
-    </div>
-</div>
-
+    <header>
+        <h1>Bienvenue sur mon site personnel</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#productions">Mes Productions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <img src="images/photo.jpg" alt="Photo de moi" class="profile-pic">
+        <p>Bonjour, je m'appelle [Votre Nom]. Je suis [votre profession ou activité]. Passionné par [votre passion], je crée des [type de production].</p>
+    </section>
+    <section id="productions">
+        <h2>Mes Productions</h2>
+        <div class="production">
+            <h3>Production 1</h3>
+            <p>Description de la production 1.</p>
+        </div>
+        <div class="production">
+            <h3>Production 2</h3>
+            <p>Description de la production 2.</p>
+        </div>
+        <!-- Ajoutez plus de productions ici -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter à l'adresse suivante : <a href="mailto:votremail@example.com">votremail@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Votre Nom]. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
